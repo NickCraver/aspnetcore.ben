@@ -16,7 +16,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\AspNetCore.Ben.Mvc\AspNetCore.Ben.Mvc.csproj" />
+    <ProjectReference Include="..\..\src\AspNetCore.Ben.Mvc\AspNetCore.Ben.Mvc.csproj" />
   </ItemGroup>
 
 </Project>
