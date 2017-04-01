@@ -4,6 +4,7 @@
     <Description>Ben's don't use in production ASP.NET Core Mvc stuff.</Description>
     <TargetFramework>netstandard1.6</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
