@@ -1,2 +1,3 @@
-# aspnetcore.ben
-AspNetCore.Ben
+# AspNetCore.Ben
+
+Faster things, not for use in production

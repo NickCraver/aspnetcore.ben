@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Ben.Mvc", "src\AspNetCore.Ben.Mvc\AspNetCore.Ben.Mvc.csproj", "{BE9ADFA6-A111-478B-8FB7-5197EB924087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51CC3BCE-255D-4EFF-8BAC-207BA470C3B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A3271CE0-C8C8-4B66-B71E-9F23ED9AA3CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4FB8C158-5DC5-4E9A-8BEB-1A83276511D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73B6A712-0C3F-427E-A214-26A99AF86429}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlappedFileStream", "samples\OverlappedFileStream\OverlappedFileStream\OverlappedFileStream.csproj", "{35063AA1-54D7-400E-A7D7-50BA92A6B04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9ADFA6-A111-478B-8FB7-5197EB924087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9ADFA6-A111-478B-8FB7-5197EB924087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9ADFA6-A111-478B-8FB7-5197EB924087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9ADFA6-A111-478B-8FB7-5197EB924087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35063AA1-54D7-400E-A7D7-50BA92A6B04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35063AA1-54D7-400E-A7D7-50BA92A6B04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35063AA1-54D7-400E-A7D7-50BA92A6B04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35063AA1-54D7-400E-A7D7-50BA92A6B04C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE9ADFA6-A111-478B-8FB7-5197EB924087} = {51CC3BCE-255D-4EFF-8BAC-207BA470C3B2}
+		{35063AA1-54D7-400E-A7D7-50BA92A6B04C} = {A3271CE0-C8C8-4B66-B71E-9F23ED9AA3CD}
+	EndGlobalSection
+EndGlobal
