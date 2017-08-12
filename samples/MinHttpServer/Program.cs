@@ -21,11 +21,11 @@ public class Program
         app.Run(HandleRequest);
     }
 
+    static byte[] data = System.Text.Encoding.ASCII.GetBytes("Hello");
+
     private async static Task HandleRequest(HttpContext context)
     {
         // Handle HTTP request
-        var data = System.Text.Encoding.ASCII.GetBytes("Hello");
-
         await context.Response.Body.WriteAsync(data, 0, data.Length);
     }
 }
